@@ -4,18 +4,18 @@ All homework repositories made in Telerik Academy:
 
 ## Module 1
 
-### Track one :one:
+### **Track One** :one:
 - C# Part 1 - Basics
 - C# Part 2 - Advanced
 - C# Object-Oriented Programing
 
-### Track two :two:
+### **Track Two** :two:
 - HTML Basics
 - CSS Styling
 - JavaScript Basics
 
 ## Module 2
 
-### Track one:
+### **Track One**
 
-### Track two:
+### **Track Two**
