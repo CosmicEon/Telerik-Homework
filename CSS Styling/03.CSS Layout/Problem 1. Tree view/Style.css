@@ -1,0 +1,37 @@
+.dropdown {
+    position: relative;
+}
+
+.dropbtn {
+    background-color: white;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+}
+
+.dropdown-content li {
+    color: #969696;
+    display: block;
+    list-style-type: none;
+}
+
+.dropdown-content li a {
+    text-decoration: none;
+    color: #919DAD;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropbtn:hover {
+    text-decoration: underline;
+}
+
+.dropdown-content li:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,76 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+section {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 1089px;
+}
+
+header ul {
+    text-align: center;
+}
+
+ul li {
+    display: inline;
+    list-style-type: none;
+    text-decoration: underline;
+    color: #00b0f0;
+    font-size: 1.5em;
+}
+
+hr {
+    border: 1px solid black;
+    width: auto;
+}
+
+article {
+    position: relative;
+    border: 1px solid black;
+    padding: 10px 8px;
+    margin: 16px;
+    height: 345px;
+    width: 1040px;
+}
+
+fieldset {
+    position: relative;
+    width: 250px;
+    height: 150px;
+    float: left;
+}
+
+img {
+    float: left;
+}
+
+div {
+    float: right;
+    width: 200px;
+}
+
+p {
+    float: left;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+p.second-stats {
+    margin-left: 25px;
+}
+
+form {
+    position: relative;
+    display: inline-block;
+    float: right;
+    width: 200px;
+    margin-top: 87px;
+}
+
+label, input {
+    position: relative;
+    display: inline-block;
+}
