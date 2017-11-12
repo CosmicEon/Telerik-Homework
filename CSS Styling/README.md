@@ -1,15 +1,17 @@
 # CSS Styling
 
-## 1. CSS Overview - [Link](./01.CSS Overview/Tasks descriptions/README.md)
+## 1. CSS Overview - [Link](01-css-overview/tasks-descriptions/README.md)
 - Ticket CSS
 - International Employees
 - Forum Posts
-## 2. CSS Presentation - [Link](./02.CSS Presentation/Tasks descriptions/README.md)
+
+## 2. CSS Presentation - [Link](02-css-presentation/tasks-descriptions/README.md)
 - Lorem Ipsum page
 - Forum Posts
 - Nested Divs
 - Windows Calculator
-## 3. Layout - [Link](./03.CSS Layout/Tasks descriptions/README.md)
+
+## 3. Layout - [Link](03-css-layout/tasks-descriptions/README.md)
 - Tree view
 - Music Categories
 - Members login

@@ -1,0 +1,19 @@
+body {
+    width: 740px;
+}
+
+p {
+    font-family: Consolas, Edwardian Script ITC;
+    color: #0094ff;
+}
+
+p:first-letter {
+    font-size: 1.6rem;
+    font-style: oblique;
+}
+
+p:first-line {
+    display: inline-block;
+    font-weight: bold;
+    height: 23px;
+}

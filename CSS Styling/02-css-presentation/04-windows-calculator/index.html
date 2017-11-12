@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css" media="screen" title="no title">
+    <title>Windows Calculator</title>
+</head>
+
+<body>
+    <section>
+        <div class="window-frame">
+            <div class="top-border">
+                <div class="calc-logo">
+                    <img src="./images/calculator_logo.png" alt="calculator">
+                    <span>Calculator</span>
+                </div>
+                <div class="window-controls">
+                    <div class="window-min">
+                        <img src="./images/window_min.png" alt="window-min">
+                    </div>
+                    <div class="window-max">
+                        <img src="./images/window_max.png" alt="window-max">
+                    </div>
+                    <div class="window-close">
+                        <img src="./images/window_close.png" alt="window-close">
+                    </div>
+                </div>
+            </div>
+            <div class="main-content">
+                <nav>
+                    <ul>
+                        <li>View</li>
+                        <li>Edit</li>
+                        <li>Help</li>
+                    </ul>
+                </nav>
+                <main>
+                    <div class="display-decimal">
+                        <span class="decimal">8854455</span>
+                    </div>
+                    <table class="display-binary">
+                        <tbody>
+                            <tr>
+                                <td>0000</td>
+                                <td>0000</td>
+                                <td>0000</td>
+                                <td>0000</td>
+                                <td>0000</td>
+                                <td>0000</td>
+                                <td>0000</td>
+                                <td>0000</td>
+                            </tr>
+                            <tr>
+                                <td>63</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>47</td>
+                                <td></td>
+                                <td></td>
+                                <td class="bit-change">32</td>
+                            </tr>
+                            <tr>
+                                <td>0000</td>
+                                <td>0000</td>
+                                <td>0000</td>
+                                <td>0000</td>
+                                <td>0000</td>
+                                <td>0000</td>
+                                <td>0000</td>
+                                <td>0000</td>
+                            </tr>
+                            <tr>
+                                <td>31</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>15</td>
+                                <td></td>
+                                <td></td>
+                                <td class="bit-change">0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="calculation-btns">
+                        <div class="options-btns">
+                            <div class="numeric-set">
+                                <label>
+                                    <input type="radio" name="num-set" value="Hex">Hex</label>
+                                <label>
+                                    <input type="radio" name="num-set" value="Dec">Dec</label>
+                                <label>
+                                    <input type="radio" name="num-set" value="Oct">Oct</label>
+                                <label>
+                                    <input type="radio" name="num-set" value="Bin">Bin</label>
+                            </div>
+                            <div class="bit-settings">
+                                <label>
+                                    <input type="radio" name="bit-set" value="Qword">Qword</label>
+                                <label>
+                                    <input type="radio" name="bit-set" value="Dword">Dword</label>
+                                <label>
+                                    <input type="radio" name="bit-set" value="Word">Word</label>
+                                <label>
+                                    <input type="radio" name="bit-set" value="Byte">Byte</label>
+                            </div>
+                        </div>
+                        <div class="operation-btns">
+                            <button type="button" name="button" disabled></button>
+                            <button type="button" name="button">Mod</button>
+                            <button type="button" name="button" disabled>A</button>
+                            <button type="button" name="button" disabled>MC</button>
+                            <button type="button" name="button" disabled>MR</button>
+                            <button type="button" name="button" disabled>MS</button>
+                            <button type="button" name="button" disabled>M+</button>
+                            <button type="button" name="button" disabled>M-</button>
+                            <button type="button" name="button">(</button>
+                            <button type="button" name="button">)</button>
+                            <button type="button" name="button" disabled>B</button>
+                            <button type="button" name="button">&#11013;</button>
+                            <button type="button" name="button">CE</button>
+                            <button type="button" name="button">C</button>
+                            <button type="button" name="button">&#177;</button>
+                            <button type="button" name="button" disabled>&#x221A;</button>
+                            <button type="button" name="button">RoL</button>
+                            <button type="button" name="button">RoR</button>
+                            <button type="button" name="button" disabled>C</button>
+                            <button class="numbers" type="button" name="button">7</button>
+                            <button class="numbers" type="button" name="button">8</button>
+                            <button class="numbers" type="button" name="button">9</button>
+                            <button type="button" name="button">/</button>
+                            <button type="button" name="button" disabled>%</button>
+                            <button type="button" name="button">Or</button>
+                            <button type="button" name="button">Xor</button>
+                            <button type="button" name="button" disabled>D</button>
+                            <button class="numbers" type="button" name="button">4</button>
+                            <button class="numbers" type="button" name="button">5</button>
+                            <button class="numbers" type="button" name="button">6</button>
+                            <button type="button" name="button">*</button>
+                            <button type="button" name="button" disabled>&#8543;x</button>
+                            <button type="button" name="button">LsH</button>
+                            <button type="button" name="button">RsH</button>
+                            <button type="button" name="button" disabled>E</button>
+                            <button class="numbers" type="button" name="button">1</button>
+                            <button class="numbers" type="button" name="button">2</button>
+                            <button class="numbers" type="button" name="button">3</button>
+                            <button type="button" name="button">-</button>
+                            <button class="equal" type="button" name="button">=</button>
+                            <button type="button" name="button">Not</button>
+                            <button type="button" name="button">And</button>
+                            <button type="button" name="button" disabled>F</button>
+                            <button class="zero numbers" type="button" name="button">0</button>
+                            <button type="button" name="button" disabled>.</button>
+                            <button type="button" name="button">+</button>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+/* NOTE: Didn't know what font is used, so I used default font */
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    font-size: 11px;
+}
+
+table {
+    background-color: #595959;
+    width: 304px;
+}
+
+th, td {
+    padding-bottom: 10px;
+}
+
+th {
+    font-weight: normal;
+    font-style: italic;
+    text-align: left;
+    color: white;
+    width: 93px;
+}
+
+td#header-el {
+    font-size: 17px;
+    padding: 4px 0 13px 0;
+}
+
+#circle {
+    float: left;
+    border: 1px solid #71b47a;
+    background-color: #71b47a;
+    border-radius: 50px;
+    width: 8px;
+    height: 8px;
+    margin: 0 0 0 2px;
+}
+
+.diff-format-1st {
+    padding: 0;
+    line-height: 11px;
+}
+
+.diff-format-2nd {
+    padding-bottom: 10px;
+}
+
+.diff-format-3rd {
+  padding-bottom: 9px;
+}
+
+.right-side {
+    float: left;
+    margin-left: 3px;
+}
+
+.gray {
+    color: #bbbbbb;
+}
+
+.yellow {
+    color: #fdf5b3;
+}
+
+.red {
+    font-weight: bold;
+    color: #fc0101;
+}
+
+.orange {
+    font-weight: bold;
+    color: #da6b1e;
+}
