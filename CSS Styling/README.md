@@ -1,4 +1,4 @@
-# CSS Styling
+# CSS Styling - Tasks
 
 ## 1. CSS Overview - [Link](01-css-overview/README.md)
 - Ticket CSS

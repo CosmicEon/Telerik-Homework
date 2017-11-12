@@ -1,4 +1,4 @@
-# CSS Layout
+# CSS Layout - Tasks
 
 ## Problem 1. Tree view - [Task description](tasks-descriptions/01-tree-view.md)
 ## Problem 2. Music Categories - [Task description](tasks-descriptions/02-music-categories.md)

@@ -1,4 +1,4 @@
-# CSS Presentation
+# CSS Presentation - Tasks
 
 ## 1. Lorem Ipsum page - [Task description](tasks-descriptions/01-lorem-ipsum-page.md)
 ## 2. Forum Posts - [Task description](tasks-descriptions/02-forum-posts.md)

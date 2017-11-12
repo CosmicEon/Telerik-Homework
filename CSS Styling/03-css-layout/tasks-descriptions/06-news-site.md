@@ -3,4 +3,4 @@
 
 _Note: Using tables, inline styles and deprecated tags is *not* allowed!_
 
-![picture6](https://cloud.githubusercontent.com/assets/3619393/7184548/7e1dcc52-e466-11e4-8e21-17b78a84449a.png)
+![picture6](images/task6.png)
