@@ -21,7 +21,8 @@ tr:nth-child(1) {
     font-size: 1.6rem;
 }
 
-td#noFormat, td#noFormatSecond {
+td#noFormat,
+td#noFormatSecond {
     padding: 0;
 }
 

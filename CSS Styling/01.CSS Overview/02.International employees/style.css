@@ -1,34 +1,43 @@
-th, td {
+th,
+td {
     border: 1px solid #bbb99d;
     padding: 6px 6px 6px 6px;
     text-align: left;
 }
+
 table {
     border-collapse: collapse;
 }
+
 th {
     background: linear-gradient(#5ec306, #4eb206);
     color: white;
     font-weight: normal;
 }
+
 .rowColor {
     background-color: #ececd8;
 }
+
 input[type=checkbox]:after {
     content: " ";
     background-color: #d4d0c8;
     display: inline-block;
     visibility: visible;
 }
+
 .col1 {
     width: 138px;
 }
+
 .col2 {
     width: 108px;
 }
+
 .col3 {
     width: 124px;
 }
+
 .col4 {
     width: 82px;
 }
